@@ -1,0 +1,66 @@
+/* =======================
+   Google fonts
+========================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/*=====================
+   common styles here
+======================*/
+body{
+   font-family: 'Poppins', sans-serif;
+}
+/*==========================
+   overlay for carousel image
+===============================*/
+.overlay-image{
+   background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));   
+}
+.text-justify{
+   text-align: justify;
+}
+/* Button hover */
+
+
+.explore-elerning-institute .container{
+   background: #F4FAFD;
+}
+
+#student-review-carousel img{
+   width: 56px!important;
+   height: auto;
+}
+/*==============================
+      Media quries
+============================*/
+ .banner-section .carousel-item{
+      height: 95vh!important;
+   }
+   .banner-section .carousel-item img{
+      object-fit: cover;
+      height: 100%;
+      object-position: center center;
+   }
+
+.banner-section .carousel-item .carousel-caption{
+      width: 80%;
+      top: 50% ;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      -o-transform: translate(-50%,-50%);
+}
+
+/*==================
+Social icon bg
+====================*/
+.social-a-bg{
+   background: rgba(246, 244, 244, 0.1);
+   width: 50px;
+   height: 50px;
+}
+
+
+
